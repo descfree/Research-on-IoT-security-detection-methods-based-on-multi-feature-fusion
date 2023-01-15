@@ -28,7 +28,7 @@ csv_best_res = ['param', 'value', 'min_mean_val_loss']
 
 params = {'epochs': 3, 'train_data': 484021, 'features_nb': 7,
           'loss_fct': 'mse', 'optimizer': 'rmsprop',
-          'activation_fct': 'sigmoid', 'layer_nb': 2, 'unit_nb': 64,
+          'activation_fct': 'sigmoid', 'layer_nb': 2, 'unit_nb': 128,
           'batch_size': 1024, 'dropout': 0.5, 'cell_type': 'LSTM',
           'encoder': 'labelencoder', 'training_nb': 1,
           'resultstocsv': True, 'resultstologs': True, 'showresults': True,
